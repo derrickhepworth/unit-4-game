@@ -1,0 +1,91 @@
+ *{
+    box-sizing: border-box;
+} 
+
+
+body{
+background-color: black;
+color:white;
+}
+
+#background{
+    background-image: url("/assets/images/wizard.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment:scroll;   
+    background-position: center;
+    background-size: cover;
+    padding:0px;
+    z-index: -1;
+    opacity: 75%;
+    height: 1000px ;
+}
+
+#content{
+    padding-left: 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+#instructions{
+    border: solid 1px purple;
+    height: 100px;
+    width: 1010px;
+    margin: 5px;
+    clear: both;
+    padding: auto;
+}
+
+#yourBox{
+    border: solid 1px red;
+    height: 100px;
+    width: 1010px;
+    margin: 5px;
+    clear: both;
+    padding: auto;
+}
+
+.crystal{
+    border: solid 1px lime;
+    height: 100px;
+    width: 245px;
+    margin: 5px;
+    float: left;
+    text-align: center;
+    padding: auto;
+  
+}
+
+#compTotal{
+    border: solid 1px blue;
+    height: 100px;
+    width: 1010px;
+    margin: 5px;
+    clear: both;
+    padding: auto;
+
+}
+
+
+#yourBox{
+    border: solid 1px red;
+    height: 100px;
+    width: 1010px;
+    margin: 5px;
+    clear: both;
+    padding: auto;
+
+}
+
+.winLoss{
+    border: solid 1px orange;
+    height: 100px;
+    width: 500px;
+    margin: 5px;
+    float: left;
+    text-align: center;
+    padding: auto;
+}
+

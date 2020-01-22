@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
-    <link href="assets/css/style.css" rel="stylesheet"  type="text/css">
-    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+    <!-- Having trouble with Meyer Reset.... ask TA <link href="/assets/css/reset.css" rel="stylesheet" type="text/css"> -->
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
+    <script src="/assets/javascript/game.js"></script>
 </head>
-<body>
-    <div>
-        <Header>
-            <h2></h2>
-        </Header>
-        <div id="instructions"></div>
-        <div id="crystal box">
-            <div class="crystal"></div>
-            <div class="crystal"></div>
-            <div class="crystal"></div>
-            <div class="crystal"></div>
-        </div>
-        <div id="comp num total"></div>
-        <div id="win loss"></div>
-        <div id="your total">
-            <div>Your total is</div>
-            <div id="your num box"></div>
-        </div>
 
+<body>
+    <div id="background">
+        <div id="content">
+            <div id="header">
+                <h2>The Crystal Collector</h2>
+            </div>
+
+            <div id="instructions">
+                <p> Welcome Mortal! I am the crystal collector. Defeat me if you can. I have chosen a number and
+                    assigned each crystal below a secret number. Choose crystals until your total matches my number
+                    exactly and I will reward you. However, should your total exceed mine, I will curse you. </p>
+            </div>
+            <div id="crystalBox">
+                <div class="crystal">Crystal 1</div>
+                <div class="crystal">Crystal 2</div>
+                <div class="crystal">Crystal 3</div>
+                <div class="crystal">Crystal 4</div>
+            </div>
+            <div id="compTotal">My total is:</div>
+            <div id="yourBox">
+                <div>Your total is:</div>
+                <div id="testBox"></div>
+            </div>
+            <div class="winLoss">Wins</div>
+            <div class="winLoss">Losses</div>
+
+        </div>
     </div>
-    
+
 </body>
+
 </html>
